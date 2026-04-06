@@ -107,15 +107,3 @@ pr-review-bot-py/
 ├── .github/workflows/review.yml   # CI workflow
 └── README.md
 ```
-
----
-
-## Push to GitHub
-
-```bash
-cd pr-review-bot-py
-git init
-git add .
-git commit -m "feat: AI PR review bot in Python"
-gh repo create pr-review-bot-py --public --push
-```
